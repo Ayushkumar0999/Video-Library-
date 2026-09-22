@@ -1,2 +1,2 @@
-# Video-Library
-Video Library MERN project 
+# Video-Liberary
+Video Liberary MERN project 
