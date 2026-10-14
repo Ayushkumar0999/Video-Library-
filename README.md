@@ -1,73 +1,72 @@
-# React + TypeScript + Vite
+# 🎬 Video Library Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 About the Project
 
-Currently, two official plugins are available:
+The **Video Library** is a MERN Full-Stack application designed to organize and manage video content in one place. It provides a user-friendly interface where users can explore and access video content easily.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was developed to practice and improve my web development skills using modern technologies and to understand how frontend and backend applications work together.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎥 Video Library Interface
+- 📂 Organized Video Content
+- 🖥️ User-Friendly Design
+- 📱 Responsive User Interface
+- ⚡ Dynamic Content Management
+- 🔗 Frontend and Backend Integration
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend:** React.js, Typescript, JavaScript, HTML5, CSS3
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Development Tools:** Visual Studio Code, Postman, Git, GitHub
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## 🚀 Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 1. Clone the Repository
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Navigate to the Project Folder
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
-
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+```bash
+cd Video-Library
 ```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Application
+
+```bash
+npm run dev
+```
+
+*Run the command from the appropriate frontend or backend directory, depending on your project setup.*
+
+## 🎯 Project Objective
+
+The main objective of this project is to build practical experience in web development, component-based UI development, API integration, and application management.
+
+## 👨‍💻 Developer
+
+**Ayush Kumar**
+
+B.Tech in Computer Science | MERN Stack Developer
+
+Interested in Full Stack Web Development and AI Integration.
+
+## 📬 Connect With Me
+
+- **GitHub:** https://github.com/Ayushkumar0999
+- **LinkedIn:** https://linkedin.com/in/ayush-kumar-62b934273
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
